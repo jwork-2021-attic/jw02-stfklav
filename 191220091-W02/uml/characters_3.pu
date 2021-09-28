@@ -1,0 +1,96 @@
+@startuml MonsterMatrix
+
+interface Sorter
+{
+    load()
+    sort()
+    getPlan()
+}
+
+class BubbleSorter
+{
+    - int[] a
+    - plan
+
+    - swap()
+    + load()
+    + sort()
+    + getPlan()
+}
+
+class SelectSorter
+{
+    - int[] a
+    - plan
+
+    - swap()
+    + load()
+    + sort()
+    + getPlan()
+}
+
+interface Linable
+{
+    setPosition()
+    getPosition()
+    getValue()
+}
+
+class Monster
+{
+    -val
+    - r
+    - g
+    - b
+    - position
+
+    + rank()
+    + toString()
+    + setPosition()
+    + getPosition()
+    + getValue()
+}
+
+
+class Matrix
+{
+    - Position[] positions
+
+    + put()
+    + get()
+    + getPostionbyValue()
+    + toString()
+    + toArray()
+}
+
+class Position
+{
+    - linable 
+
+    + setLinable()
+    + swapMonster()
+}
+
+
+class Snake
+{
+    - {static}theSnake
+    - sorter
+
+    + {static}getTheSnake()
+    + setSorter()
+    + lineUp()
+    - parsePlan()
+    - execute()
+}
+
+BubbleSorter --|> Sorter
+SelectSorter --|> Sorter
+Sorter --* Snake
+
+Monster --|> Linable
+Position --* Monster
+Linable --* Position
+
+Position --* Matrix
+@enduml

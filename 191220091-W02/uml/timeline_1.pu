@@ -1,0 +1,167 @@
+@startuml exampleTimeline
+
+collections 步骤记录 as result 
+control     排序器 as sorter
+actor       爷爷   as greeze
+entity      位置1  as position_1
+entity      位置2  as position_2
+entity      位置3  as position_3
+entity      位置4  as position_4
+entity      位置5  as position_5
+entity      位置6  as position_6
+entity      位置7  as position_7
+
+note over position_1 #fce84f:3
+/note over position_2 #ac7fa8:7
+/note over position_3 #33adff:5
+/note over position_4 #ffa600:2
+/note over position_5 #729fcf:6
+/note over position_6 #4e9a06:4
+/note over position_7 #cc0000:1
+
+sorter <- greeze:拿到
+greeze -> position_7:进行冒泡排序
+
+position_2 <-> position_3:交换
+
+note over position_1 #fce84f:3
+/note over position_2 #33adff:5
+/note over position_3 #ac7fa8:7
+/note over position_4 #ffa600:2
+/note over position_5 #729fcf:6
+/note over position_6 #4e9a06:4
+/note over position_7 #cc0000:1
+
+position_4 <-> position_3
+
+note over position_1 #fce84f:3
+/note over position_2 #33adff:5
+/note over position_3 #ffa600:2
+/note over position_4 #ac7fa8:7
+/note over position_5 #729fcf:6
+/note over position_6 #4e9a06:4
+/note over position_7 #cc0000:1
+
+position_4 <-> position_5
+
+note over position_1 #fce84f:3
+/note over position_2 #33adff:5
+/note over position_3 #ffa600:2
+/note over position_4 #729fcf:6
+/note over position_5 #ac7fa8:7
+/note over position_6 #4e9a06:4
+/note over position_7 #cc0000:1
+
+position_5 <-> position_6
+
+note over position_1 #fce84f:3
+/note over position_2 #33adff:5
+/note over position_3 #ffa600:2
+/note over position_4 #729fcf:6
+/note over position_5 #4e9a06:4
+/note over position_6 #ac7fa8:7
+/note over position_7 #cc0000:1
+
+position_7 <-> position_6
+
+note over position_1 #fce84f:3
+/note over position_2 #33adff:5
+/note over position_3 #ffa600:2
+/note over position_4 #729fcf:6
+/note over position_5 #4e9a06:4
+/note over position_6 #cc0000:1
+/note over position_7 #ac7fa8:7
+
+position_2 <-> position_3
+
+note over position_1 #fce84f:3
+/note over position_2 #ffa600:2
+/note over position_3 #33adff:5
+/note over position_4 #729fcf:6
+/note over position_5 #4e9a06:4
+/note over position_6 #cc0000:1
+/note over position_7 #ac7fa8:7
+
+position_4 <-> position_5
+
+note over position_1 #fce84f:3
+/note over position_2 #ffa600:2
+/note over position_3 #33adff:5
+/note over position_4 #4e9a06:4
+/note over position_5 #729fcf:6
+/note over position_6 #cc0000:1
+/note over position_7 #ac7fa8:7
+
+position_6 <-> position_5
+
+note over position_1 #fce84f:3
+/note over position_2 #ffa600:2
+/note over position_3 #33adff:5
+/note over position_4 #4e9a06:4
+/note over position_5 #cc0000:1
+/note over position_6 #729fcf:6
+/note over position_7 #ac7fa8:7
+
+position_1 <-> position_2
+
+note over position_1 #ffa600:2
+/note over position_2 #fce84f:3
+/note over position_3 #33adff:5
+/note over position_4 #4e9a06:4
+/note over position_5 #cc0000:1
+/note over position_6 #729fcf:6
+/note over position_7 #ac7fa8:7
+
+position_3 <-> position_4
+
+note over position_1 #ffa600:2
+/note over position_2 #fce84f:3
+/note over position_3 #4e9a06:4
+/note over position_4 #33adff:5
+/note over position_5 #cc0000:1
+/note over position_6 #729fcf:6
+/note over position_7 #ac7fa8:7
+
+position_5 <-> position_4
+
+note over position_1 #ffa600:2
+/note over position_2 #fce84f:3
+/note over position_3 #4e9a06:4
+/note over position_4 #cc0000:1
+/note over position_5 #33adff:5
+/note over position_6 #729fcf:6
+/note over position_7 #ac7fa8:7
+
+position_3 <-> position_4
+
+note over position_1 #ffa600:2
+/note over position_2 #fce84f:3
+/note over position_3 #cc0000:1
+/note over position_4 #4e9a06:4
+/note over position_5 #33adff:5
+/note over position_6 #729fcf:6
+/note over position_7 #ac7fa8:7
+
+position_3 <-> position_2
+
+note over position_1 #ffa600:2
+/note over position_2 #cc0000:1
+/note over position_3 #fce84f:3
+/note over position_4 #4e9a06:4
+/note over position_5 #33adff:5
+/note over position_6 #729fcf:6
+/note over position_7 #ac7fa8:7
+
+position_1 <-> position_2
+
+note over position_1 #cc0000:1
+/note over position_2 #ffa600:2
+/note over position_3 #fce84f:3
+/note over position_4 #4e9a06:4
+/note over position_5 #33adff:5
+/note over position_6 #729fcf:6
+/note over position_7 #ac7fa8:7
+
+greeze -> result: 写进步骤记录
+
+@enduml
