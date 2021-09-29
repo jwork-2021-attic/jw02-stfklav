@@ -85,11 +85,11 @@ class Snake
 
 BubbleSorter --|> Sorter
 SelectSorter --|> Sorter
-Sorter --* Snake
+Sorter --> Snake
 
 Monster --|> Linable
-Position --* Monster
-Linable --* Position
+Position --> Monster
+Linable --o Position
 
 Position --* Line
 @enduml

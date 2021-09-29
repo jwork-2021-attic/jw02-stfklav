@@ -80,11 +80,11 @@ class Geezer
 }
 
 BubbleSorter --|> Sorter
-Sorter --* Geezer
+Sorter --> Geezer
 
 Gourd --|> Linable
-Position --* Gourd
-Linable --* Position
+Position --> Gourd
+Linable --o Position
 
 Position --* Line
 @enduml
