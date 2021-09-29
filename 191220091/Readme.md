@@ -17,7 +17,7 @@
 
 
 
-##### 尝试从面向对象编程角度理解并阐述`example`的设计理念，具体阐述这样写的好处与可改进之处：
+##### 尝试从面向对象编程角度理解并阐述`example`的设计理念：
 
 example 中，除了Scene，有Geezer，Line，Position，BubbleSorter四个类，以及Gourd一个枚举类，其中Position是Line的内部类，BubbleSorter是接口Sorter的子类，Gourd是接口Linable的子类。
 
