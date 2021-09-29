@@ -29,9 +29,7 @@ example 中，除了Scene，有Geezer，Line，Position，BubbleSorter四个类�
 
 整个排序过程中，line, Gourd, Sorter都直接和爷爷联系，由爷爷调用，Sorter和具体的line中Gourd的排序没有直接关系，只是爷爷用来获得正确步骤的器具，具体排序是由爷爷自己执行的。因此情境相当于：爷爷看到位置错乱的葫芦娃们，通过Sorter查询到如何通过交换位置正确排序的步骤，然后爷爷根据这些步骤依次交换葫芦娃们的位置，最终将他们放入正确顺序。
 
-需要改进的地方：爷爷在执行交换步骤时，`private void execute(String *step*)`中，还是用到了具体的Gourd而非Linable，`Gourd.getGourdByRank(Integer.parseInt(couple[0])).swapPosition(Gourd.getGourdByRank(Integer.parseInt(couple[1])));`用来交换不同Gourd关联的位置，使得要将排序对象换成非Gourd有些麻烦。改进方法：可以将这一步中Gourd的`swapPosition`
-
-改为postion中的`swapLinable`，这样爷爷就可以只操作line中的position而不用具体操作某一种排序对象了，增强封装性。
+需要改进的地方：爷爷在执行交换步骤时，`private void execute(String *step*)`中，还是用到了具体的Gourd而非Linable，`Gourd.getGourdByRank(Integer.parseInt(couple[0])).swapPosition(Gourd.getGourdByRank(Integer.parseInt(couple[1])));`用来交换不同Gourd关联的位置，使得要将排序对象换成非Gourd有些麻烦。改进方法：可以将这一步中Gourd的`swapPosition`改为postion中的`swapLinable`，这样爷爷就可以只操作line中的position而不用具体操作某一种排序对象了，增强封装性。
 
 
 
