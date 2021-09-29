@@ -4,14 +4,14 @@
 
 ##### `example`的类图：
 
-![GourdLine](https://user-images.githubusercontent.com/80143498/135128876-4be6e82c-7bb3-48f0-97f8-fdda4bbc5a10.png)
+![GourdLine](http://www.plantuml.com/plantuml/png/RLFBRYen3DtdAxAyzo9-0N6HfXIfWee7hLHr4GQNZXeIb8TQIldtMd4yP0Hix9nnxEESmz07vKBSQpcsqMqV6WD2D2Q0UrCro8Lrc8gJaFZJLct__4sfHpodEmYFMXaydOMejV9UZk9cew5pjo-nwSkhLFbqm2iYv_vJ7NApNZcaLuxfbODAYaXPuRGynsEHzKreh65-jv2rqX6e4vYuf-LpYzcqId7vDADuFwy8kPkjvfHCreGi9iyKgtKrpUku77SvRdZbp49SzabZHyUvCX_jcguy1Bi8hZ4x1hhxSQDhBBtfTM6vE8kL96UH-0egnNGzypt4ZXQtE3BmtpbrB1t1VTj1cbIJuh8N2TabDmRuBZnqGhU6fZw7Tw0lxA1aDUx5LKXooONb0v8nMmIfm8eDY38fvo4PZH7uWZg6JApqjkptVmRy7scX0RCMILugOfVoGwGwSbt-X8Yzl5DP-8yq6eBPnht-1G00)
 
 
 
 
 ##### `Scene`中`main`方法执行过程中的对象时序图：
 
-![exampleTimeline](https://user-images.githubusercontent.com/80143498/135206612-4153fe00-b850-4243-93dc-3e9e0d086ed9.png)
+![exampleTimeline](http://www.plantuml.com/plantuml/png/jLFDJZCn3BpdANByFgg-GbKuWuIqm0LnSBUch9ecLPBbHwNlZfLwcbJBbLxMcJZsU3nTfamnZpjdxu9FcUFjuDcOmKluIZtRBaG9pS5O-Rb0wt__IvW4rt33-TwHbzFHcDvHIlPcNAqSNxoTModw_699JtjvOZHE7xJNOhEsoQnjC_kjKSUE-_odZQeMeWt9MDedIL98Gnw2hq9CaITo8pUK8JJOlfDJSb6_6_skC83MDCekaj-UgURGvJZu3O09BSmpnHfgu5Qs3ndnHBG4XGGE-_52hIcT2bp7I5-j0AXxRkHEkbfJHr2fKQOiJeMx8DnvsbR6XvGf3_qnlt6vmDQBFL0TIKBxGVCQyTHBrIIYo2Cy8xkWcBXu0mX_SZzcbR7rlPtFlnVu_y2dqmj02vt5b36H1Sj1iv881-cbOA6AsgPUdHQwPByUT-u7)
 
 
 
@@ -60,7 +60,7 @@ example 中，除了Scene，有Geezer，Line，Position，BubbleSorter四个类�
 
 ##### 类图：
 
-![MonsterMatrix](https://user-images.githubusercontent.com/80143498/135128991-940e193d-a581-49fb-be08-4c6f23e4fbe0.png)
+![MonsterMatrix](http://www.plantuml.com/plantuml/png/jLF1JiCm3BtdAt84flt2D3Wp2Qd01N5mEpEYPScKkB1fxD-nLhjDMQ_qqkJ5iTzxTfQP856xytOLGoPCAw3a3iQum9iFQD1MCV7Id8pbpqTOtznUbfbnMMwGdZm4tfsDQJpaR1_QklOukZktdFJjtOBizdp5o3f_mrwIpSeYixBCRAfGXHuR-jT2WnUFBW3BaZgPWs9sv69G8wQGL_0jbfJ5QcNx1Lx89Vblv5-h0CbfX5s2iEsfKgmekR1HO4nBzKnZ0pNb9lrN8_KIkwaaihBOjoE__jGY3gsFMk2QgW3tAS6nD4ShzXHyvxarWpnfmw2OcogcZiHK0RRO9pfb0dBDcJwnEv29w4P7KcaGYtYMkC9OcRCUOMxuelF4VOAKiPiRGV20JKjYSVacx7p-iz2tfJDyVQ3GGhIOJgP4wJYgPvT0dIuvP2mEffQXTzhi9OPrk_E_)
 
 
 
