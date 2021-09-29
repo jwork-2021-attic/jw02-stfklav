@@ -11,7 +11,7 @@
 
 ##### `Scene`中`main`方法执行过程中的对象时序图：
 
-![exampleTimeline](http://www.plantuml.com/plantuml/png/jLFDJZCn3BpdANByFgg-GbKuWuIqm0LnSBUch9ecLPBbHwNlZfLwcbJBbLxMcJZsU3nTfamnZpjdxu9FcUFjuDcOmKluIZtRBaG9pS5O-Rb0wt__IvW4rt33-TwHbzFHcDvHIlPcNAqSNxoTModw_699JtjvOZHE7xJNOhEsoQnjC_kjKSUE-_odZQeMeWt9MDedIL98Gnw2hq9CaITo8pUK8JJOlfDJSb6_6_skC83MDCekaj-UgURGvJZu3O09BSmpnHfgu5Qs3ndnHBG4XGGE-_52hIcT2bp7I5-j0AXxRkHEkbfJHr2fKQOiJeMx8DnvsbR6XvGf3_qnlt6vmDQBFL0TIKBxGVCQyTHBrIIYo2Cy8xkWcBXu0mX_SZzcbR7rlPtFlnVu_y2dqmj02vt5b36H1Sj1iv881-cbOA6AsgPUdHQwPByUT-u7)
+![exampleTimeline](https://user-images.githubusercontent.com/80143498/135276441-7e1da14a-2582-4219-a181-792b998ea3ba.png)
 
 
 
@@ -40,7 +40,7 @@ example 中，除了Scene，有Geezer，Line，Position，BubbleSorter四个类�
 
 ##### 类图：
 
-![MonsterLine](https://user-images.githubusercontent.com/80143498/135128953-e647e2bd-30cd-4fee-bb01-6b9f03ddd19e.png)
+![MonsterLine](http://www.plantuml.com/plantuml/png/jLFDJZCn3BpdANByFgg-GbKuWuIqm0LnSBUch9ecLPBbHwNlZfLwcbJBbLxMcJZsU3nTfamnZpjdxu9FcUFjuDcOmKluIZtRBaG9pS5O-Rb0wt__IvW4rt33-TwHbzFHcDvHIlPcNAqSNxoTModw_699JtjvOZHE7xJNOhEsoQnjC_kjKSUE-_odZQeMeWt9MDedIL98Gnw2hq9CaITo8pUK8JJOlfDJSb6_6_skC83MDCekaj-UgURGvJZu3O09BSmpnHfgu5Qs3ndnHBG4XGGE-_52hIcT2bp7I5-j0AXxRkHEkbfJHr2fKQOiJeMx8DnvsbR6XvGf3_qnlt6vmDQBFL0TIKBxGVCQyTHBrIIYo2Cy8xkWcBXu0mX_SZzcbR7rlPtFlnVu_y2dqmj02vt5b36H1Sj1iv881-cbOA6AsgPUdHQwPByUT-u7)
 
 
 
