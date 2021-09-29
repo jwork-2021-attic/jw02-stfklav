@@ -11,6 +11,7 @@
 
 ##### `Scene`中`main`方法执行过程中的对象时序图：
 
+![exampleTimeline](https://user-images.githubusercontent.com/80143498/135206612-4153fe00-b850-4243-93dc-3e9e0d086ed9.png)
 
 
 
@@ -31,6 +32,7 @@ example 中，除了Scene，有Geezer，Line，Position，BubbleSorter四个类�
 需要改进的地方：爷爷在执行交换步骤时，`private void execute(String *step*)`中，还是用到了具体的Gourd而非Linable，`Gourd.getGourdByRank(Integer.parseInt(couple[0])).swapPosition(Gourd.getGourdByRank(Integer.parseInt(couple[1])));`用来交换不同Gourd关联的位置，使得要将排序对象换成非Gourd有些麻烦。改进方法：可以将这一步中Gourd的`swapPosition`
 
 改为postion中的`swapLinable`，这样爷爷就可以只操作line中的position而不用具体操作某一种排序对象了，增强封装性。
+
 
 
 
