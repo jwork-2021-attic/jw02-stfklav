@@ -19,8 +19,8 @@ note over position_1 #fce84f:3
 /note over position_6 #4e9a06:4
 /note over position_7 #cc0000:1
 
-sorter <- greeze:拿到
-greeze -> position_7:进行冒泡排序
+sorter <- greeze:拿到，查询得知排序步骤
+greeze -> position_7:执行冒泡排序
 
 position_2 <-> position_3:交换
 
